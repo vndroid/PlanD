@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# official.sh - a CLI Bash script to build php image based on official php images for Linux
+# install.sh - a CLI Bash script to install Docker Engine CE for Linux (Only support Debian/Ubuntu/CentOS)
 
 # Copyright (c) 2016-2019 Wave WorkShop <waveworkshop@outlook.com>
 
