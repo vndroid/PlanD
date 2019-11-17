@@ -1,5 +1,8 @@
 FROM php:fpm-alpine
-RUN docker-php-ext-install pdo_mysql pdo opcache mysqli \
+
+LABEL maintainer="VVavE Docker Maintainers <waveworkshop@outlook.com>"
+
+RUN docker-php-ext-install pdo_mysql pdo opcache mysqli\
     && apk add --no-cache libpng-dev libxml2-dev \
     && docker-php-ext-install gd xml xmlrpc \
     && apk add --no-cache autoconf build-base \
